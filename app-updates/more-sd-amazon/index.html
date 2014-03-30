@@ -1,0 +1,95 @@
+<body style="background-color: transparent;">
+<meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0;'/>
+<script>
+  document.onload = function(){
+      document.ontouchmove = function(e){ e.preventDefault(); }
+  };        
+</script>
+<style type="text/css">
+  A.appname:link {text-decoration: none; color:black}
+  A.appname:visited {text-decoration: none; color:black}
+  A.appname:active {text-decoration: none; color:black}
+  IMG.bottomright { position: fixed; bottom: 0; right: 0; z-index: 100; width: 20%; }
+  IMG.icon {vertical-align: -2%}
+  .appiconandroid {
+      width: 20%;
+  }            
+  .appicon {
+      -moz-border-radius: 17%;
+      -webkit-border-radius: 17%;
+      -khtml-border-radius: 17%;          
+      border-radius: 17%; 
+      width: 20%;
+  }            
+  DIV.app { 
+    margin: 0 0 1% 0;
+    position: relative;
+    }
+  DIV.appname { 
+    font-weight: bold !important;
+    display: inline; 
+    position: absolute;
+    left: 22%;  
+    top: 18%;
+    }
+  DIV.appdescription { 
+    display: inline; 
+    position: absolute;
+    left: 22%; 
+    top: 50%;
+    }
+/* iPhone portrait */
+@media only screen and (max-width: 320px) {
+  BODY {font: 10pt helvetica,system,arial,sans-serif}
+  .appicon { width: 20%; }            
+  DIV.appname { font-size: 12pt; left: 22%;  }
+  DIV.appdescription { left: 22%; }
+/   }
+/* iPhone landscape */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  BODY {font: 12pt helvetica,system,arial,sans-serif}
+  .appicon { width: 15%; }            
+  DIV.appname { font-size: 15pt; left: 16%;  }
+  DIV.appdescription { left: 16%; }
+  }
+/* iPad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  BODY {font: 24pt helvetica,system,arial,sans-serif}
+  }
+/* laptop/desktop */
+@media only screen and (min-device-width: 1025px) {
+  BODY {font: 12pt helvetica,system,arial,sans-serif}
+  }
+</style>    
+<!--
+<div><a class="undecorated" href="http://thinkamingo.com?src=nd"><img align="right" src="Origami120T.png" height="60px" width="60px"/></a><a class="undecorated" href="http://thinkamingo.com?src=nd">Thinkamingo</a> designs and develops educational apps for all ages. Firmly rooted in the creative tradition, we not only think out of the box, we throw out the box or turn it into something else! </div>
+-->
+
+Other apps:
+
+<div class="app">
+<a class="appname" href="http://thinkamingo.com/lists-for-writers/">
+<img class="appiconandroid" src="GreenW-Android114.png"/>
+<div class="appname">Lists for Writers</div>
+<div class="appdescription">Character, Plot, Setting, etc.</div>
+</a>
+</div>
+
+<div class="app">
+<a class="appname" href="http://thinkamingo.com/story-dice">
+<img class="appiconandroid" src="icon-storydice-android-114T.png"/>
+<div class="appname">Story Dice</div>
+<div class="appdescription">Fun ideas that get kids writing</div>
+</a>
+</div>
+
+<img class="bottomright" src="Origami256T.png">
+
+<!--
+<p><a class="undecorated" href="http://thinkamingo.com?src=nd"><img class="icon" src="icon-arrow-14.png"/> Visit our website</a> or our other apps:</p>
+<p><a class="undecorated" href="mailto:thinkamingo@gmail.com"><img class="icon" src="icon-email-14.png"/> Email us with any questions</a></p>
+<p><a class="undecorated" href="http://facebook.com/thinkamingo"><img class="icon" src="icon-facebook-14.png"/> Like us on Facebook</a></p>
+<p><a class="undecorated" href="http://twitter.com/thinkamingo"><img src="twitter.png"/> Follow us on Twitter</a></p>
+<br/>
+-->
+</body>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+	<integer>3</integer>
+    <string>http://thinkamingo.com/app-updates/name-dice/house-ads.plist</string>
+    <string>house-ads.plist</string>
+	<string>http://thinkamingo.com/app-updates/name-dice/Wood-Lists-for-Writers-1.png</string>
+	<string>Wood-Lists-for-Writers-1.png</string>
+	<string>http://thinkamingo.com/app-updates/name-dice/Wood-Story-Dice-1.png</string>
+	<string>Wood-Story-Dice-1.png</string>
+	<string>http://thinkamingo.com/app-updates/name-dice/Wood-Spy-Tools.png</string>
+	<string>Wood-Spy-Tools.png</string>
+	<string>http://thinkamingo.com/app-updates/name-dice/Wood-Sports-Cards.png</string>
+	<string>Wood-Sports-Cards.png</string>
+	<string>http://thinkamingo.com/app-updates/name-dice/Wood-Story-Spark.png</string>
+	<string>Wood-Story-Spark.png</string>
+    </array>
+</plist>

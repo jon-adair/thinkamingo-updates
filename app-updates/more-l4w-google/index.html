@@ -1,151 +1,86 @@
 <body style="background-color: transparent;">
-<meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0;'/>
+<meta name='viewport' content='width=device-width; initial-scale=1.0;'/>
 <script>
   document.onload = function(){
       document.ontouchmove = function(e){ e.preventDefault(); }
-  };        
+  };
 </script>
 
 <style type="text/css">
-  BODY { 
+    BODY {
     font-family: Avenir, Helvetica, system;
     font-weight: normal;
-    font-size: 24pt;
-  }
-  A.appname:link {text-decoration: none; color:black}
-  A.appname:visited {text-decoration: none; color:black}
-  A.appname:active {text-decoration: none; color:black}
-  IMG.bottomright { position: fixed; bottom: 0; right: 0; z-index: 100; width: 20%; }
-  IMG.icon {vertical-align: -2%}
+    font-size: 24px;
+    }
+    A.appname:link {text-decoration: none; color:black}
+    A.appname:visited {text-decoration: none; color:black}
+    A.appname:active {text-decoration: none; color:black}
 
-  .appicon {
-      -moz-border-radius: 20%;
-      -webkit-border-radius: 20%;
-      -khtml-border-radius: 20%;          
-      border-radius: 20%; 
-      width: 20%;
-  }            
+    IMG.bottomright {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    width: 100px;
+    }
 
-  .appicon6 {
-      -moz-border-radius: 17%;
-      -webkit-border-radius: 17%;
-      -khtml-border-radius: 17%;          
-      border-radius: 17%; 
-      width: 20%;
-  }            
+    .appicon {
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+    width: 80px;
+    }
 
-  DIV.app { 
+    DIV.app {
     margin: 0 0 1% 0;
     position: relative;
     }
-  DIV.appname { 
+
+    DIV.appname {
     font-weight: 700;
-    font-size: 1.4em;
-    display: inline; 
+    font-size: 24px;
+    display: inline;
     position: absolute;
-    left: 22%;  
-    top: 10%;
-    }
-  DIV.appdescription { 
-    display: inline; 
-    position: absolute;
-    font-size: 1.0em;
-    left: 22%; 
-    top: 53%;
+    left: 90px;
+    top: 12px;
     }
 
-@media only screen and (orientation:landscape) {
-  .appicon {width: 72px; }
-  .appicon6 {width: 72px; }
-  DIV.appname {left: 80px; } 
-  DIV.appdescription {left: 80px; }
-  IMG.bottomright { width: 75px; }
-  }
+    DIV.appdescription {
+    display: inline;
+    position: absolute;
+    font-size: 14px;
+    left: 90px;
+    top: 48px;
+    }
 
-/* cap things at a certain max size */
-@media only screen and (min-device-width: 1025px) {
-  .appicon {width: 144px}
-  .appicon6 {width: 144px}
-  DIV.appname {left: 160px; } 
-  DIV.appdescription {left: 160px}
-  IMG.bottomright { width: 150px }
-  }
-
-@media only screen and (min-device-width: 1025px) {
-  DIV.appname { font-weight: 600; } 
-  }
-
-/* iPad */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .appicon {width: 72px; }
-  .appicon6 {width: 72px; }
-  DIV.appname {left: 80px; } 
-  DIV.appdescription {left: 80px; }
-  IMG.bottomright { width: 75px; }
-}
-
-/* iPad land */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  BODY {font-size: 18pt; }
-  }
-
-/* iPad portrait */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  BODY {font-size: 14pt; }
-  }
-
-/* iphone 5 land */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
-  BODY { font-size: 18px; }
-}
-
-/* iPhone land */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
-  BODY {font-size: 14pt }
-  }
-
-/* iPhone port */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
-  BODY {font-size: 10pt }
-  }
-
- }
-</style>    
+    }
+</style>
 
 
 <div class="app">
-<a class="appname" href="https://play.google.com/store/apps/details?id=com.thinkamingo.listsforwriters">
-<img class="appicon" src="icon-listsforwriters-144.png"/>
-<div class="appname">Lists for Writers</div>
-<div class="appdescription">Character, Plot, Setting, etc.</div>
-</a>
+    <a class="appname" href="https://play.google.com/store/apps/details?id=com.thinkamingo.listsforwriters">
+        <img class="appicon" src="../images/icon-listsforwriters-144.png"/>
+        <div class="appname">Lists for Writers</div>
+        <div class="appdescription">Character, Plot, Setting, etc.</div>
+    </a>
 </div>
 
 <div class="app">
-<a class="appname" href="https://play.google.com/store/apps/details?id=com.thinkamingo.storydice">
-<img class="appicon" src="icon-storydice-144.png"/>
-<div class="appname">Story Dice</div>
-<div class="appdescription">Fun ideas that get kids writing</div>
-</a>
+    <a class="appname" href="https://play.google.com/store/apps/details?id=com.thinkamingo.storydice">
+        <img class="appicon" src="../images/icon-storydice-144.png"/>
+        <div class="appname">Story Dice</div>
+        <div class="appdescription">Fun ideas that get kids writing</div>
+    </a>
 </div>
 
 <div class="app">
-<a class="appname" href="https://play.google.com/store/apps/details?id=com.thinkamingo.namedice">
-<img class="appicon" src="icon-namedice-144.png"/>
-<div class="appname">Name Dice</div>
-<div class="appdescription">Random names for writers</div>
-</a>
+    <a class="appname" href="https://play.google.com/store/apps/details?id=com.thinkamingo.namedice">
+        <img class="appicon" src="../images/icon-namedice-144.png"/>
+        <div class="appname">Name Dice</div>
+        <div class="appdescription">Random names for writers</div>
+    </a>
 </div>
 
-
-
-<img class="bottomright" src="Origami256T.png">
-
-<!--
-<p><a class="undecorated" href="http://thinkamingo.com?src=nd"><img class="icon" src="icon-arrow-14.png"/> Visit our website</a> or our other apps:</p>
-<p><a class="undecorated" href="mailto:thinkamingo@gmail.com"><img class="icon" src="icon-email-14.png"/> Email us with any questions</a></p>
-<p><a class="undecorated" href="http://facebook.com/thinkamingo"><img class="icon" src="icon-facebook-14.png"/> Like us on Facebook</a></p>
-<p><a class="undecorated" href="http://twitter.com/thinkamingo"><img src="twitter.png"/> Follow us on Twitter</a></p>
-<br/>
--->
+<img class="bottomright" src="../images/Origami256T.png">
 </body>

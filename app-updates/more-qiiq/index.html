@@ -1,92 +1,75 @@
 <body style="background-color: transparent;">
-<meta name='viewport' content='width=device-width; initial-scale=1.0; maximum-scale=1.0;'/>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'/>
 <script>
   document.onload = function(){
       document.ontouchmove = function(e){ e.preventDefault(); }
-  };        
+  };
 </script>
+
 <style type="text/css">
-  A.appname:link {text-decoration: none; color:black}
-  A.appname:visited {text-decoration: none; color:black}
-  A.appname:active {text-decoration: none; color:black}
-  IMG.bottomright { position: fixed; bottom: 0; right: 0; z-index: 100; width: 20%; }
-  IMG.icon {vertical-align: -2%}
-  .appicon {
-      -moz-border-radius: 17%;
-      -webkit-border-radius: 17%;
-      -khtml-border-radius: 17%;          
-      border-radius: 17%; 
-      width: 20%;
-  }            
-  DIV.app { 
+    BODY {
+    font-family: Avenir, Helvetica, system;
+    font-weight: normal;
+    font-size: 24px;
+    }
+    A.appname:link {text-decoration: none; color:black}
+    A.appname:visited {text-decoration: none; color:black}
+    A.appname:active {text-decoration: none; color:black}
+
+    IMG.bottomright {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    width: 100px;
+    }
+
+    .appicon {
+    -moz-border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -khtml-border-radius: 18px;
+    border-radius: 18px;
+    width: 80px;
+    height: 80px;
+    }
+
+    .appicon6 {
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -khtml-border-radius: 12px;
+    border-radius: 12px;
+    width: 80px;
+    height: 80px;
+    }
+
+    DIV.app {
     margin: 0 0 1% 0;
     position: relative;
     }
-  DIV.appname { 
-    font-weight: bold !important;
-    display: inline; 
-    position: absolute;
-    left: 22%;  
-    top: 18%;
-    }
-  DIV.appdescription { 
-    display: inline; 
-    position: absolute;
-    left: 22%; 
-    top: 50%;
-    }
-/* iPhone portrait */
-@media only screen and (max-width: 320px) {
-  BODY {font: 10pt helvetica,system,arial,sans-serif}
-  .appicon { width: 20%; }            
-  DIV.appname { font-size: 12pt; left: 22%;  }
-  DIV.appdescription { left: 22%; }
-/   }
-/* iPhone landscape */
-@media only screen and (min-width: 321px) and (max-width: 480px) {
-  BODY {font: 12pt helvetica,system,arial,sans-serif}
-  .appicon { width: 15%; }            
-  DIV.appname { font-size: 15pt; left: 16%;  }
-  DIV.appdescription { left: 16%; }
-  }
-/* iPhone 5 landscape */
-@media screen and (device-aspect-ratio: 40/71) and (orientation:landscape) {
-  BODY {font: 12pt helvetica,system,arial,sans-serif}
-  .appicon { width: 15%; }
-  DIV.appname { font-size: 15pt; left: 17%;  }
-  DIV.appdescription { left: 17%; }
-}
-//* iPhone 5 portrait */
-@media screen and (device-aspect-ratio: 40/71) and (orientation:portrait) {
-  BODY {font: 12pt helvetica,system,arial,sans-serif}
-  .appicon { width: 15%; }
-  DIV.appname { font-size: 13pt; left: 17%;  }
-  DIV.appdescription { left: 17%; }
-}
-/* iPad */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  BODY {font: 24pt helvetica,system,arial,sans-serif}
-  }
-/* laptop/desktop */
-@media only screen and (min-device-width: 1024px) {
-  BODY {font: 12pt helvetica,system,arial,sans-serif}
-  }
-</style>    
-<!--
-<div><a class="undecorated" href="http://thinkamingo.com?src=nd"><img align="right" src="Origami120T.png" height="60px" width="60px"/></a><a class="undecorated" href="http://thinkamingo.com?src=nd">Thinkamingo</a> designs and develops educational apps for all ages. Firmly rooted in the creative tradition, we not only think out of the box, we throw out the box or turn it into something else! </div>
--->
 
-<div class="app">
-<a class="appname" href="https://itunes.apple.com/us/app/story-spark-spark-creativity/id586718796?mt=8&at=11l5Pp&ct=more-qiiq">
-<img class="appicon" src="story-spark-150W.png"/>
-<div class="appname">Story Spark</div>
-<div class="appdescription">Spark creativity in your writing</div>
-</a>
-</div>
+    DIV.appname {
+    font-weight: 700;
+    font-size: 24px;
+    display: inline;
+    position: absolute;
+    left: 90px;
+    top: 12px;
+    }
+
+    DIV.appdescription {
+    display: inline;
+    position: absolute;
+    font-size: 14px;
+    left: 90px;
+    top: 48px;
+    }
+
+    }
+</style>
 
 <div class="app">
 <a class="appname" href="http://itunes.apple.com/us/app/lists-for-writers/id506577862?mt=8&at=11l5Pp&ct=more-qiiq">
-<img class="appicon" src="GreenW144.png"/>
+<img class="appicon" src="../images/icon-listsforwriters-144.png"/>
 <div class="appname">Lists for Writers</div>
 <div class="appdescription">Character, Plot, Setting, etc.</div>
 </a>
@@ -94,47 +77,47 @@
 
 <div class="app">
 <a class="appname" href="http://itunes.apple.com/us/app/story-dice-creative-storytelling/id525351988?mt=8&at=11l5Pp&ct=more-qiiq">
-<img class="appicon" src="icon3-144.png"/>
+<img class="appicon" src="../images/icon-storydice-144.png"/>
 <div class="appname">Story Dice</div>
 <div class="appdescription">Fun ideas that get kids writing</div>
 </a>
 </div>
 
 <div class="app">
-<a class="appname" href="http://itunes.apple.com/us/app/spy-tools-for-kids/id549990577?mt=8&at=11l5Pp&ct=more-qiiq">
-<img class="appicon" src="icon-spytools-150T.png"/>
-<div class="appname">Spy Tools for Kids</div>
-<div class="appdescription">Tools for the pretend spy</div>
-</a>
-</div>
-
-<div class="app">
-<a class="appname" href="http://itunes.apple.com/us/app/id567345613?mt=8&at=11l5Pp&ct=more-qiiq">
-<img class="appicon" src="icon-spooky-144.png"/>
-<div class="appname">Spooky Story Dice</div>
-<div class="appdescription">Fun ideas for spooky stories</div>
-</a>
-</div>
-
-<div class="app">
 <a class="appname" href="http://itunes.apple.com/us/app/id536266573?mt=8&at=11l5Pp&ct=more-qiiq">
-<img class="appicon" src="icon-namedice-144.png"/>
+<img class="appicon" src="../images/icon-namedice-144.png"/>
 <div class="appname">Name Dice</div>
 <div class="appdescription">Random names for writers</div>
 </a>
 </div>
 
 <div class="app">
-<a class="appname" href="http://itunes.apple.com/us/app/id513376129?mt=8&at=11l5Pp&ct=more-qiiq">
-<img class="appicon" src="QI-Icon4-144.png"/>
-<div class="appname">QI IQ</div>
-<div class="appdescription">Learn two letter words for word games</div>
+<a class="appname" href="http://itunes.apple.com/us/app/spy-tools-for-kids/id549990577?mt=8&at=11l5Pp&ct=more-qiiq">
+<img class="appicon6" src="../images/icon-spytools-144.png"/>
+<div class="appname">Spy Tools for Kids</div>
+<div class="appdescription">Tools for the pretend spy</div>
+</a>
+</div>
+
+<div class="app">
+<a class="appname" href="https://itunes.apple.com/us/app/story-spark-spark-creativity/id586718796?mt=8&at=11l5Pp&ct=more-qiiq">
+<img class="appicon6" src="../images/icon-storyspark-144.png"/>
+<div class="appname">Story Spark</div>
+<div class="appdescription">Spark creativity in your writing</div>
+</a>
+</div>
+
+<div class="app">
+<a class="appname" href="http://itunes.apple.com/us/app/id567345613?mt=8&at=11l5Pp&ct=more-qiiq">
+<img class="appicon" src="../images/icon-spooky-144.png"/>
+<div class="appname">Spooky Story Dice</div>
+<div class="appdescription">Fun ideas for spooky stories</div>
 </a>
 </div>
 
 <div class="app">
 <a class="appname" href="http://itunes.apple.com/us/app/id561555822?mt=8&at=11l5Pp&ct=more-qiiq">
-<img class="appicon" src="icon-baseballcards-144.png"/>
+<img class="appicon" src="../images/icon-baseballcards-144.png"/>
 <div class="appname">Baseball Card Pro</div>
 <div class="appdescription">Make your own custom trading cards</div>
 </a>
@@ -142,7 +125,7 @@
 
 <div class="app">
 <a class="appname" href="http://itunes.apple.com/us/app/id562147046?mt=8&at=11l5Pp&ct=more-qiiq">
-<img class="appicon" src="icon-footballcards-144.png"/>
+<img class="appicon" src="../images/icon-footballcards-144.png"/>
 <div class="appname">Football Card Pro</div>
 <div class="appdescription">Make your own custom trading cards</div>
 </a>
@@ -150,7 +133,7 @@
 
 <div class="app">
 <a class="appname" href="http://itunes.apple.com/us/app/id562053883?mt=8&at=11l5Pp&ct=more-qiiq">
-<img class="appicon" src="icon-soccercards-144.png"/>
+<img class="appicon" src="../images/icon-soccercards-144.png"/>
 <div class="appname">Soccer Card Pro</div>
 <div class="appdescription">Make your own custom trading cards</div>
 </a>
@@ -158,7 +141,7 @@
 
 <div class="app">
 <a class="appname" href="http://itunes.apple.com/us/app/id563219485?mt=8&at=11l5Pp&ct=more-qiiq">
-<img class="appicon" src="icon-basketballcards-144.png"/>
+<img class="appicon" src="../images/icon-basketballcards-144.png"/>
 <div class="appname">Basketball Card Pro</div>
 <div class="appdescription">Make your own custom trading cards</div>
 </a>
@@ -166,14 +149,22 @@
 
 <div class="app">
 <a class="appname" href="http://itunes.apple.com/us/app/id563220284?mt=8&at=11l5Pp&ct=more-qiiq">
-<img class="appicon" src="icon-baseballcards-144.png"/>
+<img class="appicon" src="../images/icon-baseballcards-144.png"/>
 <div class="appname">Softball Card Pro</div>
 <div class="appdescription">Make your own custom trading cards</div>
 </a>
 </div>
 
+<div class="app">
+<a class="appname" href="http://itunes.apple.com/us/app/id513376129?mt=8&at=11l5Pp&ct=more-qiiq">
+<img class="appicon6" src="../images/icon-qiiq-144.png"/>
+<div class="appname">QI IQ</div>
+<div class="appdescription">Learn two letter words for word games</div>
+</a>
+</div>
 
-<img class="bottomright" src="Origami256T.png">
+
+<img class="bottomright" src="../images/Origami256T.png">
 
 <!--
 <p><a class="undecorated" href="http://thinkamingo.com?src=nd"><img class="icon" src="icon-arrow-14.png"/> Visit our website</a> or our other apps:</p>
